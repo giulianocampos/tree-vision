@@ -11,5 +11,26 @@
     .second-title {
       color: #86a7aa;
     }
+
+    .button-one {
+      margin-bottom: 20px;
+
+      .seta {
+        margin-top: 10px;
+        color: #86a7aa;
+      }
+    }
+
+    mat-grid-list {
+      margin-bottom: 20px;
+
+      mat-grid-tile {
+        border-radius: 16px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
   }
 }

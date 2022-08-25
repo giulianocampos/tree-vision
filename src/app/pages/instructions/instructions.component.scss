@@ -1,0 +1,31 @@
+.content {
+  padding: 20px;
+
+  .title {
+    text-align: center;
+    color: #86a7aa;
+  }
+
+  .questions {
+    text-align: justify;
+
+    .first-question {
+      color: green;
+    }
+
+    .first-question-content {
+      color: #86a7aa;
+    }
+
+    .second-content {
+
+      .second-question {
+        color: green;
+      }
+
+      .second-question-content {
+        color: #86a7aa;
+      }
+    }
+  }
+}

@@ -10,11 +10,15 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HomeComponent } from './pages/home/home.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { InstructionsComponent } from './pages/instructions/instructions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    InstructionsComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +29,9 @@ import { HomeComponent } from './pages/home/home.component';
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
