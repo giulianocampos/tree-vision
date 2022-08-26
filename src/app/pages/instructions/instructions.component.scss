@@ -11,21 +11,87 @@
 
     .first-question {
       color: green;
+      font-size: 16px;
     }
 
     .first-question-content {
+      font-size: 16px;
       color: #86a7aa;
     }
 
     .second-content {
-
       .second-question {
+        font-size: 16px;
         color: green;
       }
 
       .second-question-content {
+        font-size: 16px;
         color: #86a7aa;
       }
+    }
+  }
+
+  .second-title {
+    text-align: center;
+    color: green;
+    font-size: 16px;
+  }
+
+  .step-one {
+    .img1 {
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+      color: #86a7aa;
+      text-align: justify;
+    }
+  }
+
+  .example-one {
+    text-align: center;
+  }
+
+  .step2 {
+    margin-top: 20px;
+
+    .step-two {
+      .img2 {
+        text-align: center;
+      }
+
+      p {
+        font-size: 16px;
+        color: #86a7aa;
+        text-align: justify;
+      }
+    }
+
+    .example-two {
+      text-align: center;
+    }
+  }
+
+
+  .step3 {
+    margin-top: 20px;
+
+    .step-three {
+      .img3 {
+        text-align: center;
+      }
+
+      p {
+        font-size: 16px;
+        color: #86a7aa;
+        text-align: justify;
+      }
+    }
+
+    .example-three {
+      text-align: center;
     }
   }
 }
