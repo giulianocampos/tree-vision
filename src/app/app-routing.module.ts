@@ -5,7 +5,7 @@ import { InstructionsComponent } from './pages/instructions/instructions.compone
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'instruções', component: InstructionsComponent}
+  {path: 'instrucoes', component: InstructionsComponent}
 ];
 
 @NgModule({

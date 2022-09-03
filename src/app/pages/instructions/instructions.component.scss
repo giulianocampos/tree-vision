@@ -1,6 +1,35 @@
 .content {
   padding: 20px;
 
+  .example-card {
+    margin-bottom: 30px;
+    margin-top: 12px;
+    border-radius: 20px;
+    max-width: 400px;
+
+    mat-card-content {
+      .title {
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .content {
+        margin-bottom: -20px;
+        margin-top: -10px;
+        text-align: justify;
+      }
+    }
+
+    mat-card-actions {
+      text-align: center;
+
+      button {
+        color: #86a7aa;
+        background-color: #181f26;
+      }
+    }
+  }
+
   .title {
     text-align: center;
     color: #86a7aa;
@@ -36,62 +65,5 @@
     text-align: center;
     color: green;
     font-size: 16px;
-  }
-
-  .step-one {
-    .img1 {
-      text-align: center;
-    }
-
-    p {
-      font-size: 16px;
-      color: #86a7aa;
-      text-align: justify;
-    }
-  }
-
-  .example-one {
-    text-align: center;
-  }
-
-  .step2 {
-    margin-top: 20px;
-
-    .step-two {
-      .img2 {
-        text-align: center;
-      }
-
-      p {
-        font-size: 16px;
-        color: #86a7aa;
-        text-align: justify;
-      }
-    }
-
-    .example-two {
-      text-align: center;
-    }
-  }
-
-
-  .step3 {
-    margin-top: 20px;
-
-    .step-three {
-      .img3 {
-        text-align: center;
-      }
-
-      p {
-        font-size: 16px;
-        color: #86a7aa;
-        text-align: justify;
-      }
-    }
-
-    .example-three {
-      text-align: center;
-    }
   }
 }
