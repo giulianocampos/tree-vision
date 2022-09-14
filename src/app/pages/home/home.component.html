@@ -1,50 +1,41 @@
 <div class="content">
-  <div class="sections">
-    <div class="main-title">
-      <h3>IDENTIFIQUE UMA ÁRVORE EM RISCO</h3>
-      <span class="orientacoes">
-        <p>Veja as intruções e orientações</p>
-      </span>
-    </div>
 
-      <div class="button-one">
-        <div class="buttons">
-          <button mat-flat-button routerLink="instrucoes">
-            INSTRUÇÕES
-            <mat-icon>touch_app</mat-icon>
-          </button>
-        </div>
-      </div>
+  <mat-card class="example-card">
 
-        <!--<div class="seta">
-          <mat-icon>arrow_downward</mat-icon>
-        </div>-->
+    <img mat-card-image src="../../../assets/images/arvore-caida-dois.jpg"/>
 
-        <mat-grid-list cols="1" rowHeight="6:4" gutterSize="10px">
-          <mat-grid-tile>
-            <img src="../../../assets/images/arvore-caida-dois.jpg">
-          </mat-grid-tile>
+    <mat-card-content>
+      <p class="title">IDENTIFIQUE UMA ÁRVORE EM RISCO</p>
+      <p class="content">
+        Veja as intruções e orientações
+      </p>
+    </mat-card-content>
 
-          <mat-grid-tile>
-            <img src="../../../assets/images/árvore01 - calçada500px.jpeg">
-          </mat-grid-tile>
-        </mat-grid-list>
+    <mat-card-actions>
+      <button mat-flat-button routerLink="instrucoes">
+        INSTRUÇÕES
+        <mat-icon>touch_app</mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
 
 
-    <div class="second-title">
-      <h3>ENTENDA DE MANEIRA FÁCIL</h3>
-      <span>
-        <p>Entenda qual o estado de vida de uma árvore</p>
-      </span>
-    </div>
+  <mat-card class="example-card">
 
-      <div class="vida-button">
-        <button mat-flat-button>
-          CICLO DE VIDA
-          <mat-icon>touch_app</mat-icon>
-        </button>
-      </div>
-  </div>
+    <img mat-card-image src="../../../assets/images/árvore01 - calçada500px.jpeg"/>
 
+    <mat-card-content>
+      <p class="title">ENTENDA DE MANEIRA FÁCIL</p>
+      <p class="content">
+        Entenda qual o estado de vida de uma árvore
+      </p>
+    </mat-card-content>
 
+    <mat-card-actions>
+      <button mat-flat-button routerLink="">
+        CICLO DE VIDA
+        <mat-icon>touch_app</mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
 </div>

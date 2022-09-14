@@ -1,51 +1,35 @@
 .content {
   padding: 20px;
 
-  .sections {
-    text-align: center;
+  .example-card {
+    margin-bottom: 30px;
+    margin-top: 12px;
+    border-radius: 20px;
+    max-width: 400px;
 
-    .main-title {
-      color: #86a7aa;
+    mat-card-content {
 
-      .orientacoes {
-        p {
-          margin-top: -10px;
-          font-size: 16px;
-        }
+      .title {
+        margin-bottom: -12px;
+        font-weight: bold;
+        text-align: center;
       }
-    }
 
-    .second-title {
-      color: #86a7aa;
-    }
-
-    .button-one {
-      margin-bottom: 20px;
-
-      .seta {
-        margin-top: 10px;
-        color: #86a7aa;
-      }
-    }
-
-    mat-grid-list {
-      margin-bottom: 20px;
-
-      mat-grid-tile {
-        border-radius: 16px;
-
-        img {
-          width: 100%;
-        }
-      }
-    }
-
-    .second-title {
-      p {
-        font-size: 16px;
+      .content {
+        margin-bottom: -30px;
         margin-top: -10px;
+        text-align: center;
+      }
+    }
+
+    mat-card-actions {
+      text-align: center;
+
+      button {
+        margin-bottom: 10px;
+        color: #86a7aa;
+        background-color: #181f26;
       }
     }
   }
-
 }

@@ -8,6 +8,7 @@
     max-width: 400px;
 
     mat-card-content {
+
       .title {
         font-weight: bold;
         text-align: center;
@@ -24,6 +25,7 @@
       text-align: center;
 
       button {
+        margin-bottom: 10px;
         color: #86a7aa;
         background-color: #181f26;
       }
@@ -31,6 +33,7 @@
   }
 
   .title {
+    margin-top: -16px;
     text-align: center;
     color: #86a7aa;
   }
