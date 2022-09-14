@@ -10,11 +10,15 @@
     mat-card-content {
 
       .title {
+        margin-top: 10px;
+        margin-bottom: -10px;
         font-weight: bold;
         text-align: center;
+        color: #393E46;
       }
 
       .content {
+        font-size: 16px;
         margin-bottom: -20px;
         margin-top: -10px;
         text-align: justify;
@@ -27,22 +31,23 @@
       button {
         margin-bottom: 10px;
         color: #86a7aa;
-        background-color: #181f26;
+        //color: #4ECCA3;
+        background-color: #393E46;
       }
     }
   }
 
   .title {
-    margin-top: -16px;
     text-align: center;
-    color: #86a7aa;
+    color: #4ECCA3;
   }
 
   .questions {
     text-align: justify;
 
     .first-question {
-      color: green;
+      //color: green;
+      color: #4ECCA3;
       font-size: 16px;
     }
 
@@ -54,7 +59,8 @@
     .second-content {
       .second-question {
         font-size: 16px;
-        color: green;
+        //color: green;
+        color: #4ECCA3;
       }
 
       .second-question-content {
@@ -66,7 +72,8 @@
 
   .second-title {
     text-align: center;
-    color: green;
+    // color: green;
+    color: #4ECCA3;
     font-size: 16px;
   }
 }
