@@ -1,17 +1,39 @@
 .content {
   padding: 20px;
 
+  .main-title {
+    text-align: center;
+    color: #25b838;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin-bottom: -10px;
+
+    mat-icon {
+      color: #25b838;
+    }
+  }
+
+  .card-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .example-card {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 12px;
     border-radius: 20px;
-    max-width: 400px;
+    // max-width: 400px;
+    max-width: 280px;
 
     mat-card-content {
 
       .title {
+        color: #25b838;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
         margin-bottom: -12px;
-        font-weight: bold;
+        //font-weight: bold;
         text-align: center;
       }
 
@@ -27,9 +49,11 @@
       text-align: center;
 
       button {
+        letter-spacing: 0.5px;
+        font-size: 18px;
+        font-family: 'Bebas Neue', cursive;
         margin-bottom: 10px;
-        color: #86a7aa;
-        background-color: #393E46;
+        background-color: #25b838;
       }
     }
   }
