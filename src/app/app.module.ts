@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,13 +12,22 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { HomeComponent } from './pages/home/home.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
+import { MatDialogModule } from '@angular/material/dialog';
+
+
 import { InstructionsComponent } from './pages/instructions/instructions.component';
+import { StepOneComponent } from './pages/instructions/dialogs/step-one/step-one.component';
+import { StepTwoComponent } from './pages/instructions/dialogs/step-two/step-two.component';
+import { TreeServicesComponent } from './pages/tree-services/tree-services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    InstructionsComponent
+    InstructionsComponent,
+    StepOneComponent,
+    StepTwoComponent,
+    TreeServicesComponent
   ],
   imports: [
     BrowserModule,
@@ -31,8 +40,14 @@ import { InstructionsComponent } from './pages/instructions/instructions.compone
     MatListModule,
     FlexLayoutModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    MatDialogModule
   ],
+
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
+  ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

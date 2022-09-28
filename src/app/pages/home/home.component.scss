@@ -4,13 +4,9 @@
   .main-title {
     text-align: center;
     color: #25b838;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 20px;
     margin-bottom: -10px;
-
-    mat-icon {
-      color: #25b838;
-    }
   }
 
   .card-conteiner {
@@ -27,11 +23,10 @@
     max-width: 280px;
 
     mat-card-content {
-
       .title {
         color: #25b838;
         font-size: 20px;
-        font-family: 'Bebas Neue', cursive;
+        font-family: "Bebas Neue", cursive;
         margin-bottom: -12px;
         //font-weight: bold;
         text-align: center;
@@ -49,11 +44,33 @@
       text-align: center;
 
       button {
-        letter-spacing: 0.5px;
-        font-size: 18px;
-        font-family: 'Bebas Neue', cursive;
+        font-size: 16px;
+        letter-spacing: 0.1px;
+        font-family: "Bebas Neue", cursive;
         margin-bottom: 10px;
         background-color: #25b838;
+      }
+    }
+
+    mat-card-title {
+      color: #25b838;
+      font-size: 20px;
+      font-family: "Bebas Neue", cursive;
+      text-align: center;
+    }
+
+    mat-card-subtitle {
+     // font-family: "Bebas Neue", cursive;
+     font-weight: bold;
+     margin-top: 10px;
+      font-size: 14px;
+      color: black;
+      text-align: center;
+    }
+
+    .services {
+      p {
+        text-align: justify;
       }
     }
   }

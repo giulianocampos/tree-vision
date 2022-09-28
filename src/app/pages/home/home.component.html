@@ -2,9 +2,9 @@
 
   <div class="main-title">
     <p>Monitore a vida de qualquer árvore</p>
+    <!-- <mat-icon>compost</mat-icon> -->
   </div>
 
-  <mat-icon>compost</mat-icon>
 
   <div class="card-conteiner">
     <mat-card class="example-card">
@@ -17,13 +17,28 @@
       </mat-card-content>
       <mat-card-actions>
         <button mat-flat-button routerLink="instrucoes">
-          INSTRUÇÕES
-          <mat-icon>touch_app</mat-icon>
+          Instruções
+          <!-- <mat-icon>touch_app</mat-icon> -->
         </button>
       </mat-card-actions>
     </mat-card>
+
     <mat-card class="example-card">
-      <img mat-card-image src="../../../assets/images/árvore01 - calçada500px.jpeg"/>
+      <mat-card-title>Serviços</mat-card-title>
+      <mat-card-subtitle>Cadastre as árvores com serviço pendente</mat-card-subtitle>
+      <mat-card-content class="services">
+        <p>Solicitou algum serviço? Cadastre as árvores que possuem serviços pendentes,
+          assim você evitará de solicitar o serviço novamente
+          para a mesma árvore.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-flat-button routerLink="servicos">Serviços Pendentes</button>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class="example-card">
+      <img mat-card-image src="../../../assets/images/environmental.jpg"/>
       <mat-card-content>
         <p class="title">CICLO DE VIDA DAS ÁRVORES</p>
         <p class="content">
@@ -33,7 +48,7 @@
       <mat-card-actions>
         <button mat-flat-button routerLink="">
           CICLO DE VIDA
-          <mat-icon>touch_app</mat-icon>
+          <!-- <mat-icon>touch_app</mat-icon> -->
         </button>
       </mat-card-actions>
     </mat-card>

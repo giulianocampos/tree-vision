@@ -37,7 +37,7 @@
     </mat-card-content>
 
     <mat-card-actions>
-      <button mat-flat-button routerLink="">
+      <button mat-flat-button (click)="stepOne()">
         VEJA EXEMPLOS
         <mat-icon>touch_app</mat-icon>
       </button>
@@ -66,21 +66,19 @@
 
 
   <mat-card class="example-card">
-    <img mat-card-image src="../../../assets/images/folhas 500px.jpg"/>
+    <img mat-card-image src="../../../assets/images/composing.jpg"/>
 
     <mat-card-content>
       <p class="title-card-three">Passo 3 - Conclusão</p>
       <p class="content">
-        Comece observando as principais partes de uma árvore, como: tronco em
-        geral, galhos e folhas. Veja se as folhas estão com uma coloração
-        diferente da normal ou se o tronco da árvore apresenta algum desnível.
+        Caso a árvore esteja com alguma característica semelhante ás imagens de exemplo dos passos 1 e 2,
+        isso significa que a árvore provavelmente está em risco e precisa de algum tipo de cuidado. Clique e veja como proceder!
       </p>
     </mat-card-content>
 
     <mat-card-actions>
       <button mat-flat-button routerLink="">
-        VEJA EXEMPLOS
-        <mat-icon>touch_app</mat-icon>
+        Como proceder ?
       </button>
     </mat-card-actions>
   </mat-card>
