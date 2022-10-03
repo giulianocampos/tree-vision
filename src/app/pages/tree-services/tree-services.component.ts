@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TreeServicesComponent implements OnInit {
 
+  public cards: any[] = [1, 2, 3]
+
   constructor() { }
 
   ngOnInit(): void {

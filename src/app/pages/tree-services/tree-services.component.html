@@ -1,1 +1,20 @@
-<p>tree-services works!</p>
+<div class="content">
+  <div>
+    <h2>Árvores com serviços pendentes</h2>
+  </div>
+
+  <div>
+    <mat-card *ngFor="let card of cards">
+      <mat-card-title>Árvore 1</mat-card-title>
+      <mat-card-subtitle>Serviço: Poda</mat-card-subtitle>
+      <mat-card-content>
+        <div>
+          <div>CEP: 12345-678</div>
+          <div>Número: 54</div>
+          <div>Solicitante: João</div>
+        </div>
+        <!-- Solicitante será opcional -->
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
