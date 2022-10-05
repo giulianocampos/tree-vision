@@ -3,18 +3,47 @@
     <h2>Árvores com serviços pendentes</h2>
   </div>
 
-  <div>
-    <mat-card *ngFor="let card of cards">
-      <mat-card-title>Árvore 1</mat-card-title>
-      <mat-card-subtitle>Serviço: Poda</mat-card-subtitle>
-      <mat-card-content>
-        <div>
-          <div>CEP: 12345-678</div>
-          <div>Número: 54</div>
-          <div>Solicitante: João</div>
-        </div>
-        <!-- Solicitante será opcional -->
-      </mat-card-content>
-    </mat-card>
+  <div class="add">
+    <button mat-fab class="add-button">
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+
+  <div fxLayout="row wrap" fxLayoutGap="10px grid">
+    <div class="card-conteiner" *ngFor="let card of cards" fxFlex="100%" fxFlex.xs="100%" fxFlex.sm="33.3%" fxFlex.md="25%" fxFlex.lg="20%">
+      <mat-card class="example-card">
+
+        <!-- <div class="settings">
+          <button mat-flat-button>
+            <mat-icon>settings</mat-icon>
+          </button>
+        </div> -->
+
+        <mat-card-header>
+            <div>
+              <mat-card-title>Árvore 1</mat-card-title>
+            </div>
+            <div>
+              <mat-card-subtitle>Serviço: Poda</mat-card-subtitle>
+            </div>
+        </mat-card-header>
+
+          <mat-card-content>
+            <div class="dados">
+                <div>Solicitante: João</div>
+                <div>CEP: 12345-678</div>
+                <div>Número: 54</div>
+            </div>
+          </mat-card-content>
+
+          <mat-card-actions>
+            <div class="actions-button">
+              <button mat-flat-button>
+                <mat-icon>settings</mat-icon>
+              </button>
+            </div>
+          </mat-card-actions>
+      </mat-card>
+    </div>
   </div>
 </div>

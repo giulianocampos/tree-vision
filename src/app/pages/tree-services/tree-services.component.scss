@@ -1,8 +1,83 @@
 .content {
+  padding: 20px;
+
   h2 {
+    font-size: 22px;
     text-align: center;
     margin-top: 10px;
     font-family: "Bebas Neue", cursive;
     color: #25b838;
+  }
+
+  .add {
+    display: flex;
+    justify-content: center;
+  }
+
+  .add-button {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    place-content: center;
+    align-items: center;
+    background-color: #25b838;
+    margin-top: -10px;
+    margin-bottom: 12px;
+  }
+
+  // mat-card {
+  //   max-width: 400px;
+  //   margin-bottom: 12px;
+
+  //   mat-card-header {
+  //     text-align: center;
+  //     display: flex;
+  //     flex-direction: column;
+
+  //     mat-card-subtitle {
+  //       margin-top: -8px;
+  //     }
+  //   }
+
+  //   .dados {
+  //     text-align: center;
+  //     display: flex;
+  //     flex-direction: column;
+  //   }
+  // }
+
+  .card-conteiner {
+    align-items: center;
+  }
+
+  .example-card {
+    margin-bottom: 10px;
+    margin-top: 12px;
+    border-radius: 20px;
+
+    .settings {
+      display: flex;
+      place-content: end;
+    }
+
+    mat-card-header {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+
+      mat-card-subtitle {
+        margin-top: -6px;
+      }
+    }
+
+    mat-card-content {
+      text-align: center;
+    }
+
+    .actions-button {
+      margin-top: -20px;
+      display: flex;
+      justify-content: center;
+    }
   }
 }
