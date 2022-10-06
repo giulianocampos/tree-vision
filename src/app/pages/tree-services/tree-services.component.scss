@@ -25,27 +25,6 @@
     margin-bottom: 12px;
   }
 
-  // mat-card {
-  //   max-width: 400px;
-  //   margin-bottom: 12px;
-
-  //   mat-card-header {
-  //     text-align: center;
-  //     display: flex;
-  //     flex-direction: column;
-
-  //     mat-card-subtitle {
-  //       margin-top: -8px;
-  //     }
-  //   }
-
-  //   .dados {
-  //     text-align: center;
-  //     display: flex;
-  //     flex-direction: column;
-  //   }
-  // }
-
   .card-conteiner {
     align-items: center;
   }
@@ -65,13 +44,28 @@
       display: flex;
       flex-direction: column;
 
+      mat-card-title {
+        font-size: 20px;
+        font-family: "Bebas Neue", cursive;
+      }
+
       mat-card-subtitle {
-        margin-top: -6px;
+        margin-top: 0px;
+        border-radius: 8px;
+        background-color: #bd3a3a;
+        color: white;
       }
     }
 
     mat-card-content {
       text-align: center;
+
+      .data {
+        margin-top: -10px;
+        padding: 10px;
+        background-color: #25b838;
+        border-radius: 10px;
+      }
     }
 
     .actions-button {
