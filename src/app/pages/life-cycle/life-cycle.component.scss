@@ -1,6 +1,12 @@
 .content {
   padding: 20px;
 
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .main-title {
     text-align: center;
     font-family: "Bebas Neue", cursive;
@@ -8,9 +14,66 @@
     color: #25b838;
   }
 
+  .subtitle {
+    font-size: 14px;
+    color: #86a7aa;
+    text-align: justify;
+  }
+
   .text-content {
     .first-steps {
+      color: #25b838;
+      justify-content: center;
       display: flex;
     }
+
+    .born {
+      margin-right: 12px;
+      align-self: center;
+    }
+
+    .icon {
+      color: #86a7aa;
+      margin-right: 12px;
+      display: flex;
+      align-self: center;
+    }
+
+    .growth {
+      align-self: center;
+    }
+
+    .end-steps {
+      color: #25b838;
+      justify-content: center;
+      display: flex;
+    }
+
+    .reproduction {
+      margin-right: 12px;
+      align-self: center;
+    }
+
+    .death {
+      align-self: center;
+    }
+  }
+
+  .example-card {
+    margin-bottom: 10px;
+    margin-top: 12px;
+    border-radius: 20px;
+    max-width: 400px;
+
+    mat-card-title {
+      color: #25b838;
+      font-size: 20px;
+      font-family: "Bebas Neue", cursive;
+      text-align: center;
+    }
+  }
+
+  .text {
+    text-align: justify;
   }
 }
