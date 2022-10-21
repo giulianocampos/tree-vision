@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { StepOneComponent } from './dialogs/step-one/step-one.component';
+import { StepThreeComponent } from './dialogs/step-three/step-three.component';
 import { StepTwoComponent } from './dialogs/step-two/step-two.component';
 
 @Component({
@@ -24,6 +25,13 @@ export class InstructionsComponent implements OnInit {
 
   stepTwo() {
     this.dialog.open(StepTwoComponent, {
+      height: '500px',
+      width: '300px'
+    });
+  }
+
+  stepThree() {
+    this.dialog.open(StepThreeComponent, {
       height: '500px',
       width: '300px'
     });

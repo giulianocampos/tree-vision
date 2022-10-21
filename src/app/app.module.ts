@@ -20,6 +20,7 @@ import { StepOneComponent } from './pages/instructions/dialogs/step-one/step-one
 import { StepTwoComponent } from './pages/instructions/dialogs/step-two/step-two.component';
 import { TreeServicesComponent } from './pages/tree-services/tree-services.component';
 import { LifeCycleComponent } from './pages/life-cycle/life-cycle.component';
+import { StepThreeComponent } from './pages/instructions/dialogs/step-three/step-three.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { LifeCycleComponent } from './pages/life-cycle/life-cycle.component';
     StepOneComponent,
     StepTwoComponent,
     TreeServicesComponent,
-    LifeCycleComponent
+    LifeCycleComponent,
+    StepThreeComponent
   ],
   imports: [
     BrowserModule,
